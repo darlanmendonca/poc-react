@@ -1,0 +1,25 @@
+{
+  "name": "poc-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 4000",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": "Darlan Mendonça <darlanmendonca@gmail.com> (https://darlanmendonca.github.io)",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-knobs": "^4.1.12",
+    "@storybook/addons": "^4.1.12",
+    "@storybook/react": "^4.1.12",
+    "babel-loader": "^8.0.5"
+  }
+}
