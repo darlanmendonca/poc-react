@@ -72,9 +72,7 @@ export default class InputText extends React.Component {
   }
 
   onChange(event) {
-    this.setState({value: event.target.value}, () => {
-      this.validate()
-    })
+    this.setState({value: event.target.value})
   }
 
   validate() {

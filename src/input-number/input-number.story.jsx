@@ -1,15 +1,15 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { withKnobs, text, boolean, number, select } from '@storybook/addon-knobs'
-import InputText from './input-text.component'
-import './input-text.style.scss'
+import InputNumber from './input-number.component'
+import './input-number.style.scss'
 
 storiesOf('components', module)
   .addDecorator(withKnobs)
-  .add('InputText', () => {
+  .add('InputNumber', () => {
     return (
-      <InputText
-        label={text('label', 'username')}
+      <InputNumber
+        label={text('label', 'number')}
         placeholder={text('placeholder')}
         value={text('value')}
         disabled={boolean('disabled')}
